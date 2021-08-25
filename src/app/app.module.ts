@@ -9,7 +9,12 @@ import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
-  declarations: [AppComponent, HeroesComponent, HeroDetailComponent, MessagesComponent],
+  declarations: [
+    AppComponent,
+    HeroesComponent,
+    HeroDetailComponent,
+    MessagesComponent
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
